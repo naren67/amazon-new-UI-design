@@ -1,0 +1,38 @@
+.product__image{
+          max-height:200px ;
+          width: 100%;
+          object-fit: contain;
+          margin-bottom: 20px;
+          margin-top: 20px;
+}
+
+.product{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          flex-direction: column;
+          background: rgb(255, 255, 255);
+          max-height: 400px;
+          min-width: 100px;
+          margin: 10px;
+          padding: 15px;
+          z-index: 1;
+          border: 0.0001px solid gainsboro;
+          flex: 1;
+}
+
+.product__button button{
+          outline: none;
+          border: none;
+          background: rgba(255, 166, 0, 0.734);
+          padding: 6px 15px;
+          border-radius: 2px;
+          font-size: 13px;
+          cursor: pointer;
+}
+
+.product__info{
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+}
